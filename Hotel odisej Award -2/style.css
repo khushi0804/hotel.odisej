@@ -1,0 +1,952 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:DM Sans;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#page-1
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-1920x0.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+#nav img
+{
+    cursor: pointer;
+    margin-left: -20px;
+}
+#nav
+{
+    
+    width:100%;
+    padding: 20px 70px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    position: fixed;
+    top:0%;
+    z-index: 1;
+    opacity: 1;
+}
+#nav-1 .btn-1
+{  padding: 8px 20px;
+    border-radius: 50px;
+    background-color:transparent;
+    font-size: 15px;
+    font-weight: 500;
+    border:1px solid rgba(128, 128, 128, 0.403);
+    color:#6B7556;
+    margin-right: 10px;
+    transition: all ease 0.5s;
+    
+}
+#nav-1 .btn-1:hover
+{
+    background-color: #E3E3C4;
+    border: none;
+}
+#nav-1 .btn-2
+{
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color:#5B6647;
+    font-size: 15px;
+    font-weight: 500;
+    border:1px solid rgba(128, 128, 128, 0.403);
+    color:white;
+
+}
+#page-1 h2 
+{
+    top:10%;
+    left:38%;
+    position: absolute;
+    font-size: 60px;
+    color: #434B34;
+    font-weight: 500;
+    
+}
+
+.h2 
+{
+  font-size: 66px;
+    font-family:PP Woodland;
+    color: #434B34;
+    position: relative;
+    left: 38%;
+    transform: translate(0%,65%);
+    /* z-index: 12; */
+}
+.h3
+{
+    font-size: 22px;
+    color: #2E3323;
+    font-family:PP Woodland;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+    left: 47%;
+    transform: translate(0%,180%);
+    /* z-index: 12; */
+    
+}
+#page-2
+{
+    height: 120vh;
+    width: 100%;
+    background-color: #5B6647;
+    position: relative;
+   
+}
+#page-2 h2
+{
+    
+    text-align:center;
+    color:#444d35;
+    font-size: 60px;
+    font-weight:500;
+    padding: 8% 34%;
+    line-height: 70px;
+    z-index: 990;
+    position: absolute;
+    top:0%
+}
+#page-2 h2 span 
+{
+    font-family:"PP Woodland";
+    z-index: 99;
+    top:0%
+}
+.icon-1
+{
+   position: absolute;
+   top:100%;
+   z-index: 9999;
+   height: 250px;
+}
+.wave-2
+{
+    position: absolute;
+    top:100%;
+    height: 220px;
+    z-index: 99;
+}
+#page-3 
+{
+    height: 100vh;
+    width: 100%;
+    background-color:#F7F7EE;
+    position: relative;
+    
+}
+#page-3 h2
+{
+    top:38%;
+    position: absolute;
+    font-size: 85px;
+    color:#E3E3C4;
+    left:25%;
+    font-weight: 300;
+    line-height: 85px;
+    
+}
+#page-3 h2 span{
+    font-family:PP Woodland;
+ text-align: center;
+ 
+}
+#page-4
+{
+    height: 100vh;
+    width: 100%;
+    background-color:#F7F7EE; 
+    position: relative;
+}
+.h4-1
+{
+    top:-24%;
+    left:6%;
+ position: absolute;
+ font-weight: 500;
+ font-size: 16px;
+}
+.img-1
+{
+    height: 450px;
+    width: 700px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: -24%;
+    left:40%;
+}
+.h5-1
+{
+    position: absolute;
+    top:-6.5%;
+    left: 6%;
+    font-size: 24px;
+color: #434B34;
+font-weight: 500;
+}
+.h5-1 i
+{
+    margin-left: 12px;
+    font-size: 17px;
+    color: white;
+    background-color: #5B6647;
+    padding: 5px 16px ;
+    border-radius: 50px;
+
+}
+.img-2
+{
+    height: 450px;
+    width: 520px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left:5%;
+}
+.img-3
+{
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left:40%;
+}
+
+#page-5
+{
+    height: 130vh;
+    width: 100%;
+    background-color:#F7F7EE;
+   padding: 10px 80px;
+}
+.box-1
+{
+    height: 200px;
+    width: 100%; 
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: hidden;
+    
+}
+.box-1 img
+{
+    height:100%;
+    width:22%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    opacity: 0;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -25%;
+   
+}
+.ins-1
+{
+    margin-left: -20%;
+    transition: all ease 0.5s;
+}
+.ins-1 h2
+{
+    margin-bottom: 18px;
+    font-size: 43px;
+    font-family:"PP Woodland";
+    font-weight: 300; 
+    color:#5B6647 ;
+    transition: all ease 0.5s;
+}
+.ins-1 h5
+{
+    color: #6b7556;
+    transition: all ease 0.5s;
+}
+.ins-1 h3
+{
+    color:#E3E3C4;
+    transition: all ease 0.5s;
+    margin-top: 10px;
+}
+
+.box-2
+{
+    height: 200px;
+    width: 100%; 
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: hidden;
+    
+}
+.box-2 img
+{
+    height:100%;
+    width:22%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    opacity: 0;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -25%;
+   
+}
+.ins-2
+{
+    margin-left: -20%;
+    transition: all ease 0.5s;
+}
+.ins-2 h2
+{
+    margin-bottom: 18px;
+    font-size: 43px;
+    font-family:"PP Woodland";
+    font-weight: 300; 
+    color:#5B6647 ;
+    transition: all ease 0.5s;
+}
+.ins-2 h5
+{
+    color: #6b7556;
+    transition: all ease 0.5s;
+}
+.ins-2 h3
+{
+    color:#E3E3C4;
+    transition: all ease 0.5s;
+    margin-top: 10px;
+}
+
+.box-3
+{
+    height: 200px;
+    width: 100%; 
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: hidden;
+    
+}
+.box-3 img
+{
+    height:100%;
+    width:22%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    opacity:0;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -25%;
+   
+}
+.ins-3
+{
+    margin-left: -20%;
+    transition: all ease 0.5s;
+}
+.ins-3 h2
+{
+    margin-bottom: 20px;
+    font-size: 43px;
+    font-family:"PP Woodland";
+    font-weight: 300; 
+    color:#5B6647 ;
+    transition: all ease 0.5s;
+}
+.ins-3 h5
+{
+    color: #6b7556;
+    transition: all ease 0.5s;
+}
+.box-3 h3
+{
+    color:#E3E3C4;
+    transition: all ease 0.5s;
+    margin-top: 11%;
+    margin-left: -21%;
+}
+
+.box-4
+{
+    height: 200px;
+    width: 100%; 
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: hidden;
+    
+}
+.box-4 img
+{
+    height:100%;
+    width:22%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    opacity:0;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -25%;
+   
+}
+.ins-4
+{
+    margin-left: -20%;
+    transition: all ease 0.5s;
+}
+.ins-4 h2
+{
+    margin-bottom: 18px;
+    font-size: 43px;
+    font-family:"PP Woodland";
+    font-weight: 300; 
+    color:#5B6647 ;
+    transition: all ease 0.5s;
+}
+.ins-4 h5
+{
+    color: #6b7556;
+    transition: all ease 0.5s;
+}
+.box-4 h3
+{
+    color:#E3E3C4;
+    transition: all ease 0.5s;
+    margin-top: 12%;
+    margin-left: -21%;
+}
+
+.box-5
+{
+    height: 200px;
+    width: 100%; 
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 9;
+}
+.box-5::-webkit-scrollbar
+{
+    display: none;
+}
+.box-5 img
+{
+    height:100%;
+    width:22%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    opacity:0;
+    transition: all ease 0.5s;
+    position: relative;
+    left: -25%;
+   
+}
+.ins-5
+{
+    margin-left: -20%;
+    transition: all ease 0.5s;
+}
+.ins-5 h2
+{
+    margin-bottom: 18px;
+    font-size: 43px;
+    font-family:"PP Woodland";
+    font-weight: 300; 
+    color:#5B6647 ;
+    transition: all ease 0.5s;
+}
+.ins-5 h5
+{
+    color: #6b7556;
+    transition: all ease 0.5s;
+}
+.box-5 h3
+{
+    color:#E3E3C4;
+    transition: all ease 0.5s;
+    margin-top: 10.5%;
+    margin-left: -22.5%;
+}
+#page-6
+{
+    height: 120vh;
+    width: 100%;
+    background-color:#F7F7EE;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+}
+.img-4
+{
+    height: 600px;
+    width: 700px;
+    object-position: center;
+    object-fit: cover;
+    position: relative;
+   left:0%;
+    border-radius: 20px;
+    top:10%;
+}
+.img-5  
+{
+    height: 600px;
+    width: 700px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    top:10%;
+    left:-10%;
+}
+.center
+{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top:10%;
+    left: -5%;
+}
+.center h2
+{
+    font-size: 70px;
+    font-family:PP Woodland;
+    font-weight: 500;
+    color: #434B34;
+    line-height: 80px;
+    opacity: 0;
+}
+.center h5
+{
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 15px;
+    opacity: 0;
+}
+.center h3
+{
+    margin-top: 30%;
+    color: #464E37;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.center h3 i
+{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 500;
+    color:#F7F7EE;
+    padding: 3px 15px;
+    background-color:#5E684A;
+    border-radius: 50px;  
+}
+#page-7
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F7EE;
+    border-bottom:3px solid black ;
+}
+#page-8
+{
+    height: 70vh;
+    width: 100%;
+    background-color: #F7F7EE;
+    position: relative;
+    
+}
+#page-8 h2
+{
+    top:40%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    font-family:PP Woodland;
+    font-weight: 500;
+    color:#434B34;
+}
+#page-8 h5
+{
+    top:61%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color:#434B34;
+    opacity: 0.7;
+}
+#page-9
+{
+    height: 100vh;
+    width: 100%;
+    background-color:#F7F7EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left
+{
+    height: 100%;
+    width: 50%;
+    /* background-color:grey; */
+   
+    padding-left: 63px;
+}
+.left img
+{
+    height: 570px;
+    width: 570px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.right
+{
+    height: 100%;
+    width: 50%;
+    /* background-color:beige; */
+    position: relative;
+  
+}
+.right h2
+{
+    top:22%;
+    left:15%;
+    position: absolute;
+    font-family:PP Woodland;
+   font-weight: 500;
+   font-size: 40px;
+   color: #434B34;
+}
+.right h5
+{
+    top:32%;
+    left:15%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    color:#464B3C;
+}
+.right h3
+{
+    top:55%;
+    left:15%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    color:#5E684A;
+
+}
+.right h3 i 
+{
+    font-size: 17px;
+    margin-left: 10px;
+    color:#F7F7EE;
+    background-color:#5E684A;
+    padding: 4px 17px;
+    border-radius: 50px;
+}
+#page-10
+{
+    height: 100vh;
+    width: 100%;
+    background-color:#F7F7EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-1
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: beige; */
+    position: relative;
+}
+.right-1
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.left-1 h2
+{
+    top:20%;
+    left:35%;
+    position: absolute;
+    font-family:PP Woodland;
+   font-weight: 500;
+   font-size: 40px;
+   color: #434B34;
+}
+.left-1 h5
+{
+    top:38%;
+    left:35%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    color:#464B3C;
+}
+.left-1 h3
+{
+    top:66%;
+    left:35%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    color:#5E684A;
+
+}
+.left-1 h3 i 
+{
+    font-size: 17px;
+    margin-left: 10px;
+    color:#F7F7EE;
+    background-color:#5E684A;
+    padding: 4px 17px;
+    border-radius: 50px;
+}
+.right-1 img
+{
+    height: 570px;
+    width: 570px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+#page-11
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/394/ALH-Odisej-Lakes-1920x0.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    padding: 0px 70px;
+    
+}
+.box-6
+{
+    bottom: 5%;
+    position: absolute;
+    height: 250px;
+    width: 90%;
+    background-color: #5B6647;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 90px;
+}
+.box-6 h2
+{
+    font-size: 60px;
+    font-family:PP Woodland;
+    font-weight: 500;
+    color: #E3E3C4;
+}
+.box-6 h4
+{
+    font-size: 25px;
+   margin-right: 40px;
+   margin-top: 5px;
+   font-weight: 500;
+   color:#F7F7EE;
+}
+.box-6 h4 i 
+{
+    margin-left: 10px;
+    font-size: 15px;
+    background-color:#F7F7EE;
+    color:#464E37;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+#page-12
+{
+    height: 100vh;
+    width: 100%;
+   background-color: #03364F;
+   position: relative;
+}
+.fill
+{
+   z-index: 1;
+}
+#page-12 h2
+{
+   z-index: 3;
+    font-size: 55px;
+    color: #E3E3C4;
+    position: absolute;
+    top:5.5%;
+    left:40%;
+    font-weight: 500;
+    font-family: PP Woodland;
+}
+#page-12 h3
+{
+    z-index: 3;
+    font-size: 20px;
+    color:#F7F7EE;
+    position: absolute;
+    top:16.3%;
+    left:47.5%;
+    font-weight: 50;
+    font-family: PP Woodland;
+    letter-spacing: 2px;
+}
+#page-12 img
+{
+    position: absolute;
+    top:8.5%;
+    z-index:3;
+    height: 60px;
+    left: 90%;
+}
+.box-7
+{
+margin-left: 60px;
+height: 100px;
+width: 90%;
+position: absolute;
+border-bottom:2px solid #03405F;
+top:30%;
+/* background-color: beige; */
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+padding-bottom: 20px;
+padding-left: 20px;
+
+}
+.box-7 h4
+{
+    color: #F7F7EE;
+    font-size: 18px;
+    font-weight:500;
+}
+.box-7 h4:nth-child(2)
+{
+    margin-right: 140px;
+}
+
+.box-8
+{
+    margin-left: 60px;
+    height: 100px;
+    width: 90%;
+    position: absolute;
+    border-bottom:2px solid #03405F;
+    top:60%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+.box-8 h5
+{
+    color: #F7F7EE;
+    font-size: 18px;
+    font-weight:500;
+}
+.box-9
+{
+    height: 80px;
+    z-index: 3;
+    color:#F7F7EE;
+    width: 90%;
+    position: absolute;
+    /* background-color: black; */
+    bottom: 0%;
+   margin-left: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.box-9 h6
+{
+   opacity: 0.6;
+   font-weight: 500;
+ font-size: 12px;
+}
+
+#loader
+{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+   background-color:#F7F7EE;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   
+}
+#loader img
+{
+    height:400px;
+    width: 700px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 50px;
+    
+}
+#loader .lh2
+{
+    top:8%;
+    left: 38%;
+    font-size: 66px;
+    position: absolute;
+    font-family:PP Woodland;
+    color: #434B34;
+    font-weight: 500;
+}
